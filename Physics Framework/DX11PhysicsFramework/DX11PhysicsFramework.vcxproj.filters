@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns:atg="http://atg.xbox.com" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{8e114980-c1a3-4ada-ad7c-83caadf5daeb}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{2c3d4c8c-5d1a-459a-a05a-a4e4b608a44e}</UniqueIdentifier>
+      <Extensions>fx;fxh;hlsl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\Textures">
+      <UniqueIdentifier>{84a4d56f-682d-4b12-a7c9-064cc08bce09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Helpers">
+      <UniqueIdentifier>{9c796f30-1066-4157-a18b-1202b10ee0ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject">
+      <UniqueIdentifier>{4e16107e-0734-4a45-a520-e309cccd7458}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RigidBody">
+      <UniqueIdentifier>{309b1eda-4689-4893-92ac-9edb20756449}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{e9100aa8-ec2b-4055-ae89-2986b51b68be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General  Stuff">
+      <UniqueIdentifier>{9bcab33d-d9b8-4980-a63f-86093f3926e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Collider">
+      <UniqueIdentifier>{21dc808e-d51e-49b0-932e-48c1e97c9647}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="OBJLoader.h">
+      <Filter>Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="DDSTextureLoader.h">
+      <Filter>Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>General  Stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>General  Stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="Debug.h">
+      <Filter>General  Stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="Appearance.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsModel.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleModel.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="RigidBodyModel.h">
+      <Filter>RigidBody</Filter>
+    </ClInclude>
+    <ClInclude Include="Structures.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="DX11PhysicsFramework.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Collider.h">
+      <Filter>Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="SphereCollider.h">
+      <Filter>Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="AABBCollider.h">
+      <Filter>Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="Quaternion.h">
+      <Filter>General  Stuff</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="OBJLoader.cpp">
+      <Filter>Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="DDSTextureLoader.cpp">
+      <Filter>Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector.cpp">
+      <Filter>General  Stuff</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>General  Stuff</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug.cpp">
+      <Filter>General  Stuff</Filter>
+    </ClCompile>
+    <ClCompile Include="Appearance.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsModel.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleModel.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="RigidBodyModel.cpp">
+      <Filter>RigidBody</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="DX11PhysicsFramework.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Collider.cpp">
+      <Filter>Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="SphereCollider.cpp">
+      <Filter>Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="AABBCollider.cpp">
+      <Filter>Collider</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CLInclude Include="resource.h">
+      <Filter>Resource Files</Filter>
+    </CLInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resources\floor.dds">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="Resources\stone.dds">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SimpleShaders.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DX11PhysicsFramework.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

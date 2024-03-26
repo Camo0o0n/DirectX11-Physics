@@ -1,0 +1,12 @@
+﻿  DX11PhysicsFramework.cpp
+C:\Users\camed\OneDrive\Documents\GitHub\Applied-Mathematics\Physics Framework\DX11PhysicsFramework\Vector.h(64,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\camed\OneDrive\Documents\GitHub\Applied-Mathematics\Physics Framework\DX11PhysicsFramework\Vector.h(65,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\camed\OneDrive\Documents\GitHub\Applied-Mathematics\Physics Framework\DX11PhysicsFramework\Vector.h(66,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\camed\OneDrive\Documents\GitHub\Applied-Mathematics\Physics Framework\DX11PhysicsFramework\Quaternion.h(194,23): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Users\camed\OneDrive\Documents\GitHub\Applied-Mathematics\Physics Framework\DX11PhysicsFramework\Quaternion.h(199,25): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Users\camed\OneDrive\Documents\GitHub\Applied-Mathematics\Physics Framework\DX11PhysicsFramework\DX11PhysicsFramework.cpp(84,75): warning C4100: 'nCmdShow': unreferenced formal parameter
+C:\Users\camed\OneDrive\Documents\GitHub\Applied-Mathematics\Physics Framework\DX11PhysicsFramework\DX11PhysicsFramework.cpp(679,13): warning C4189: 'objectATransform': local variable is initialized but not referenced
+C:\Users\camed\OneDrive\Documents\GitHub\Applied-Mathematics\Physics Framework\DX11PhysicsFramework\DX11PhysicsFramework.cpp(680,13): warning C4189: 'objectBTransform': local variable is initialized but not referenced
+C:\Users\camed\OneDrive\Documents\GitHub\Applied-Mathematics\Physics Framework\DX11PhysicsFramework\DX11PhysicsFramework.cpp(706,10): warning C4189: 'invMassSum': local variable is initialized but not referenced
+C:\Users\camed\OneDrive\Documents\GitHub\Applied-Mathematics\Physics Framework\DX11PhysicsFramework\DX11PhysicsFramework.cpp(701,10): warning C4189: 'e': local variable is initialized but not referenced
+  DX11PhysicsFramework.vcxproj -> C:\Users\camed\OneDrive\Documents\GitHub\Applied-Mathematics\Physics Framework\x64\Debug\DX11PhysicsFramework.exe
